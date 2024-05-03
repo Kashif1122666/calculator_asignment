@@ -1,0 +1,76 @@
+body{
+    background-color:gray;
+    color: white;
+}
+#screen{
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 10px;
+    left: 25px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    
+    margin-bottom: -20px;
+    margin-top: 20px;
+   
+    background-color: rgb(148, 148, 89);
+    
+
+
+}
+p{
+    
+    position: relative;
+    
+    text-align: center;
+    color: black;
+    top: 20px;
+    font-size: xx-large;
+    left: 70px;
+    
+}
+#container{
+    display: inline-block;
+    background-color: black;
+    height: 590px;
+    width: 25%;
+    margin: 120px auto;
+    position: relative;
+    left: 450px;
+    border-radius: 30px;
+    
+    
+    
+    
+}
+table{
+     border-radius: 20px; 
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-collapse: separate;
+    width: 95%;
+    height: 40px;
+    
+}
+tr,td{
+    text-align: center;
+    margin: 40px; 
+    border-radius: 20px;
+    
+    padding: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(63, 61, 61);
+    width: 5px;
+    height: 40px;
+}
+
+#cbtn{
+    background-color:red ;
+}
+#eqbtn{
+ background-color: rgb(42, 130, 177);   
+}
