@@ -1,6 +1,7 @@
 body{
     background-color:gray;
     color: white;
+    overflow: hidden;
 }
 #screen{
     display: inline-block;
@@ -64,8 +65,14 @@ tr,td{
     border: 2px solid black;
     border-collapse: collapse;
     background-color: rgb(63, 61, 61);
-    width: 5px;
+    width: 90px;
     height: 40px;
+    font-size: xx-large;
+  
+}
+td{
+    box-shadow: 8px 0px 5px rgb(113, 105, 105) ;
+    
 }
 
 #cbtn{
